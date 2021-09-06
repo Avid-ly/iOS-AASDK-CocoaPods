@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK 1.1.0.2
+AccountSDK 1.1.0.5
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
