@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AASDK-Unity'
+  s.name             = 'AASDK'
   s.version          = '1.1.0.5'
   s.summary          = 'AASDK 1.1.0.5'
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK Unity 1.1.0.2
+AccountSDK 1.1.0.2
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
