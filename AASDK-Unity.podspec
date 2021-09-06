@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AASDK-Unity'
-  s.version          = '1.1.0.5'
+  s.version          = '1.1.0.5.unity'
   s.summary          = 'AASDK 1.1.0.5'
 
 # This description is used to generate tags and improve search results.
@@ -16,7 +16,7 @@ AccountSDK Unity 1.1.0.5
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-AASDK-CocoaPods.git', :tag => "#{s.version}.unity" }
+  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-AASDK-CocoaPods.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
 
