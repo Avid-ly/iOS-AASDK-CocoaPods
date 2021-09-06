@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK Unity 1.1.0.2
+AccountSDK Unity 1.1.0.5
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-MSSDK-CocoaPods.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-MSSDK-CocoaPods.git', :tag => "#{s.version}.unity" }
 
   s.ios.deployment_target = '10.0'
 
