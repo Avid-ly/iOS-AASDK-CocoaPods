@@ -29,11 +29,11 @@ AccountSDK 1.1.0.5
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
   s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit', '~> 11.1.0'
+  facebook.dependency 'FBSDKLoginKit', '11.1.0'
   end
 
   s.subspec 'GoogleSignIn' do |google|
-  google.dependency 'GoogleSignIn', '~> 6.0.2'
+  google.dependency 'GoogleSignIn', '5.0.2'
   end
 
   s.swift_version = '5.0'
