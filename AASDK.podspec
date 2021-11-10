@@ -16,7 +16,7 @@ AccountSDK 2.0.0.1
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-AASDK-CocoaPods.git', :tag => "#{s.version}.xcode" }
+  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-AASDK-CocoaPods.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
 
