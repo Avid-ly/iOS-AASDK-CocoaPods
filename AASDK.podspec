@@ -32,10 +32,6 @@ AccountSDK 2.0.0.3
   facebook.dependency 'FBSDKLoginKit', '11.1.0'
   end
 
-  s.subspec 'GoogleSignIn' do |google|
-  google.dependency 'GoogleSignIn', '5.0.2'
-  end
-
   s.swift_version = '5.0'
 
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
