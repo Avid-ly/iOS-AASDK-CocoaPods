@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/AASAccountSDK.h</key>
 		<data>
-		1BVR1fqZxjW1RkcxFP9se1e+ag4=
+		GkDVbPayxAak+wyuW1GOJQyfDKc=
 		</data>
 		<key>Headers/AASAccountSDKVersion.h</key>
 		<data>
-		M852BRRMjovsv9yREZUe0qdwtoQ=
+		pzFJRTyMD9a9amr3VH7D2rx7HbA=
 		</data>
 		<key>Headers/AASEnumDefine.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zvzql541RB2veIhHt672pJgt9Rk=
+		BbpZF732LqvDTZt8Cri9ONZPTKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,22 +50,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1BVR1fqZxjW1RkcxFP9se1e+ag4=
+			GkDVbPayxAak+wyuW1GOJQyfDKc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nwkyz4ANfFNLwNFkTw8VZdwSFyymGl8kMg5mYq/pCic=
+			RyeWLbo4xQHXPCFKHyIMlb7a9JkYW8t6o+pBxKIOxFI=
 			</data>
 		</dict>
 		<key>Headers/AASAccountSDKVersion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M852BRRMjovsv9yREZUe0qdwtoQ=
+			pzFJRTyMD9a9amr3VH7D2rx7HbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qFWcabU3B0t5/7uU0owg2F1bK61OUTOOBvkzpuH106M=
+			aCOWTSyuha0+xFcmeN9X2op0U/N1HcxMyxCo5/6Ah8c=
 			</data>
 		</dict>
 		<key>Headers/AASEnumDefine.h</key>
