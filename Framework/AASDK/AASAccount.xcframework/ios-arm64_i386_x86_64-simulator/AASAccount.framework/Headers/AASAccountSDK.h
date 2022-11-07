@@ -27,6 +27,8 @@
 
 + (void)setLoginCallback:(void (^)(AASAccountLoginModel *model))succeedCallback errorCallback:(void (^)(NSError *error))errorCallback;
 
++ (void)setBindCallback:(void (^)(AASAccountLoginModel *model))succeedCallback errorCallback:(void (^)(NSError *error))errorCallback;
+
 #pragma mark - Login
 
 + (void)login;
