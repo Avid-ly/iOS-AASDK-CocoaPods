@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AASDK'
-  s.version          = '2.0.0.5'
-  s.summary          = 'AASDK 2.0.0.5'
+  s.version          = '2.0.0.6'
+  s.summary          = 'AASDK 2.0.0.6'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK 2.0.0.4
+AccountSDK 2.0.0.6
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
@@ -18,7 +18,7 @@ AccountSDK 2.0.0.4
   s.author           = { "steve" => "909476821@qq.com" }
   s.source           = { :git => 'https://github.com/Avid-ly/iOS-AASDK-CocoaPods.git', :tag => s.version }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.library = 'sqlite3', 'z', 'c++', 'xml2', 'resolv'
 
@@ -29,7 +29,7 @@ AccountSDK 2.0.0.4
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
   s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit', '11.1.0'
+  facebook.dependency 'FBSDKLoginKit', '16.1.1'
   end
 
   s.swift_version = '5.0'
