@@ -29,7 +29,7 @@ AccountSDK 2.0.0.6
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
   s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit', '16.1.1'
+  facebook.dependency 'FBSDKLoginKit', '15.1.0'
   end
 
   s.swift_version = '5.0'
