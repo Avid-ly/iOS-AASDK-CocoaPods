@@ -6,6 +6,6 @@
 //  Copyright © 2019 Technology Co.,Ltd. All rights reserved.
 //
 
-#define AASAccountSDK_Version           @"2.0.0.6"
+#define AASAccountSDK_Version           @"2.0.0.7"
 #define AASAccountSDK_Build             @"1"
-#define AASAccountSDKVersionString      @"AASDK_VERSION_2006.1"
+#define AASAccountSDKVersionString      @"AASDK_VERSION_2007.1"
