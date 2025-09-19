@@ -4,17 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AASAccountLoginModel.h</key>
+		<key>Headers/AALoginModel.h</key>
 		<data>
-		/pIIxCU4hJyi0kwgVReCiVPAecU=
+		xXY0kh6YAplI0G3jK9VncLfXyO0=
 		</data>
-		<key>Headers/AASAccountSDK.h</key>
+		<key>Headers/AASDK.h</key>
 		<data>
-		svJuUrZ0fXZgoH3BRv93a3KK8f4=
+		Dq5HMKuqG38FaN3IgAuvIBuCj+Q=
 		</data>
-		<key>Headers/AASAccountSDKVersion.h</key>
+		<key>Headers/AASDKAppDelegate.h</key>
 		<data>
-		3QMj6JTSkAGJH7LlPtuZJCzUgqg=
+		eBN/NkPJvCGh+AQMK4lipW9vdwY=
+		</data>
+		<key>Headers/AASDKLoginAPI.h</key>
+		<data>
+		sYoFV5Its90eQmYbuEZD839z6bw=
+		</data>
+		<key>Headers/AASDKLoginView.h</key>
+		<data>
+		HPR1KVN39ZlAkMDNJkUWL1k/s/Y=
+		</data>
+		<key>Headers/AASDKVersion.h</key>
+		<data>
+		2nAl1uO0BKh6BPM4XACtrzeusZg=
 		</data>
 		<key>Headers/AASEnumDefine.h</key>
 		<data>
@@ -22,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KgGQsqCEhzKz4Wr1NiLWR6JXR6M=
+		lgdR07piFLbNjH04JjzwQCNrY14=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -31,37 +43,70 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AASAccountLoginModel.h</key>
+		<key>Headers/AALoginModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/pIIxCU4hJyi0kwgVReCiVPAecU=
+			xXY0kh6YAplI0G3jK9VncLfXyO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wfid+t0rJrmOxEFyorl4fp3PRwi2FNHf2IxfitowGag=
+			0hyULHaCvEjmwT4Imo5/LFRu+/s1VaIFUT/quRjS9Ws=
 			</data>
 		</dict>
-		<key>Headers/AASAccountSDK.h</key>
+		<key>Headers/AASDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			svJuUrZ0fXZgoH3BRv93a3KK8f4=
+			Dq5HMKuqG38FaN3IgAuvIBuCj+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			IR0eLwk0XrnkIKaXpnQIrxwBLV9TUG8rmaQFmwfpwhc=
+			5sKP4kTpLufXBJ0v32Td6kTiUCsY7q82zT0rMDTOgWU=
 			</data>
 		</dict>
-		<key>Headers/AASAccountSDKVersion.h</key>
+		<key>Headers/AASDKAppDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3QMj6JTSkAGJH7LlPtuZJCzUgqg=
+			eBN/NkPJvCGh+AQMK4lipW9vdwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nQeJTH33SoXJSlpEztUqt6h7WkcL7pkWcrfEO622xUw=
+			/oc9mkM1aTW8qp7QmFIrZbKHsbh8EHp14/a/5Nk7W4k=
+			</data>
+		</dict>
+		<key>Headers/AASDKLoginAPI.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sYoFV5Its90eQmYbuEZD839z6bw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q27VSGPW25mrCMrtBIsZIFlrG/mVPjdb+0jGmcRHraM=
+			</data>
+		</dict>
+		<key>Headers/AASDKLoginView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HPR1KVN39ZlAkMDNJkUWL1k/s/Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			9airxpglnDFX9KWAW1b+nKK5N7gTw6L0uGHp8lUJkeQ=
+			</data>
+		</dict>
+		<key>Headers/AASDKVersion.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2nAl1uO0BKh6BPM4XACtrzeusZg=
+			</data>
+			<key>hash2</key>
+			<data>
+			YjdyALzprCKo2q3tfl4aVGKZT1RbgWYojjwKRba5DVA=
 			</data>
 		</dict>
 		<key>Headers/AASEnumDefine.h</key>

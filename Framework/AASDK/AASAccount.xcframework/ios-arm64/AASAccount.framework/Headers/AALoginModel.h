@@ -23,7 +23,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AASAccountLoginModel : NSObject
+@interface AALoginModel : NSObject
 
 @property (nonatomic,copy) NSString *gameGuestId;
 @property (nonatomic,copy) NSString *signedRequest;
