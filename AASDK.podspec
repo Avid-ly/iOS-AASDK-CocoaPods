@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = 'AASDK-Unity'
-  s.version          = '1.1.0.5'
-  s.summary          = 'AASDK 1.1.0.5'
+  s.name             = 'AASDK'
+  s.version          = '3.0.0.3'
+  s.summary          = 'AASDK 3.0.0.3'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,30 +10,30 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AccountSDK Unity 1.1.0.2
+AccountSDK 3.0.0.3
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "steve" => "909476821@qq.com" }
-  s.source           = { :git => 'https://github.com/Avid-ly/Avidly-iOS-MSSDK-CocoaPods.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Avid-ly/iOS-AASDK-CocoaPods.git', :tag => s.version }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.library = 'sqlite3', 'z', 'c++', 'xml2', 'resolv'
 
   s.frameworks = 'QuartzCore', 'MediaPlayer', 'CoreMedia', 'CoreGraphics', 'CFNetwork', 'WebKit', 'WatchConnectivity', 'SystemConfiguration', 'StoreKit', 'Social', 'MessageUI','JavaScriptCore','EventKit','CoreTelephony','AVFoundation','AdSupport'
 
-  s.vendored_frameworks = 'Framework/AASDK/AASAccount.framework'
+  s.vendored_frameworks = 'Framework/AASDK/AASAccount.xcframework'
   
   s.resources = "Framework/AASDK/AASAccountSDK.bundle"
 
-  s.subspec 'FBSDKLoginKit' do |facebook|
-  facebook.dependency 'FBSDKLoginKit', '~> 9.0.1'
-  end
+  s.resource_bundles = {
+    'AASDK_Privacy' => ['Framework/AASDK/AASAccount.xcframework/ios-arm64/**/PrivacyInfo.xcprivacy']
+  }
 
-  s.subspec 'GoogleSignIn' do |google|
-  google.dependency 'GoogleSignIn', '~> 6.0.2'
+  s.subspec 'FBSDKLoginKit' do |facebook|
+  facebook.dependency 'FBSDKLoginKit'
   end
 
   s.swift_version = '5.0'
