@@ -8,6 +8,10 @@
 		<data>
 		xXY0kh6YAplI0G3jK9VncLfXyO0=
 		</data>
+		<key>Headers/AASAccount.h</key>
+		<data>
+		sDlRcVCjSljBZv6LQ9+Eo1x4zSw=
+		</data>
 		<key>Headers/AASDK.h</key>
 		<data>
 		Dq5HMKuqG38FaN3IgAuvIBuCj+Q=
@@ -36,6 +40,10 @@
 		<data>
 		qFPujuDfiqxgpS1ccuar0rKEMtA=
 		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		tKwEuNwbokRcoMvJswMxrTYJ3R8=
+		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		5c+BQr8s4ycsNBeEicmAlR9kFT8=
@@ -52,6 +60,17 @@
 			<key>hash2</key>
 			<data>
 			0hyULHaCvEjmwT4Imo5/LFRu+/s1VaIFUT/quRjS9Ws=
+			</data>
+		</dict>
+		<key>Headers/AASAccount.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sDlRcVCjSljBZv6LQ9+Eo1x4zSw=
+			</data>
+			<key>hash2</key>
+			<data>
+			rmAGCTW20szqs5QOe1N0prVFxlg3shlu/aMrX2bVZDk=
 			</data>
 		</dict>
 		<key>Headers/AASDK.h</key>
@@ -118,6 +137,17 @@
 			<key>hash2</key>
 			<data>
 			b2nzhVE6e8NP6lO7dr1efDU26vD5fzg0Bbuz2nuopk0=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tKwEuNwbokRcoMvJswMxrTYJ3R8=
+			</data>
+			<key>hash2</key>
+			<data>
+			QBf7+zg7LJG3SvQ4zCX2vitZ6Jt8xUXeYEHPTZO1pVk=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
